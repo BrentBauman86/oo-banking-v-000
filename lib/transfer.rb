@@ -14,7 +14,7 @@ class Transfer
 
   def valid?
   binding.pry
-    @sender.valid? && @receiver.valid? ? true : false 
+    @sender.valid? && @receiver.valid? ? true : false
   end
 
   def execute_transaction
