@@ -14,7 +14,7 @@ class Transfer
 
   def valid?
  # binding.pry
-    if @sender == sender && @receiver == receiver
+    if @sender.valid? == sender && @receiver.valid? == receiver
       true
     else
       false
