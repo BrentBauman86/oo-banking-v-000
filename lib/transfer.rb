@@ -31,7 +31,6 @@ class Transfer
  # binding.pry
     if @sender.balance < @receiver.balance
        @sender.balance + @amount
-       @status = "reversed"
     else
       false
     end
