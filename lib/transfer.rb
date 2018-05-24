@@ -28,6 +28,10 @@ class Transfer
   end
 
   def reverse_transfer
-
+    if @sender != @receiver
+      puts "reverse transfer"
+    else
+      false
+    end
   end
 end
