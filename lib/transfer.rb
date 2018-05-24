@@ -23,7 +23,7 @@ class Transfer
 
   def execute_transaction
     #  binding.pry
-    @sender = sender - amount  
+    @sender = sender - amount
   end
 
 
