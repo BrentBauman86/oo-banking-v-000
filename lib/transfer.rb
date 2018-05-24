@@ -28,8 +28,8 @@ class Transfer
   end
 
   def reverse_transfer
-binding.pry
-    if @sender.balance = @receiver.balance
+# binding.pry
+    if @sender.balance < @receiver.balance
       true
     else
       false
