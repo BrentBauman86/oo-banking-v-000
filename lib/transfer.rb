@@ -30,7 +30,7 @@ class Transfer
   def reverse_transfer
 # binding.pry
     if @sender.balance < @receiver.balance
-      true
+       @receiver = receiver - amount
     else
       false
     end
