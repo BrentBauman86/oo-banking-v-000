@@ -30,7 +30,7 @@ class Transfer
   def reverse_transfer
  # binding.pry
        @sender.balance + @amount
-end 
+end
 
 
 
